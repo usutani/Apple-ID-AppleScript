@@ -67,6 +67,7 @@ Errors are not handled gracefully. Although some errors are recoverable, if the 
 
 At the end of this script, Apple will send a verification email to the Apple ID. To complete verification, click the link in the message, then re-enter the account address and password.
 
+The rescue email will also be sent a verification email. In practice, it's been found there's no need to verify the rescue email but YMMV.
 === Download ===
 
 The files are downloadable from GitHub: https://github.com/thomrburg/Apple-ID-AppleScript Feel free to fork and improve.
