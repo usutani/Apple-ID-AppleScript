@@ -15,7 +15,7 @@ Deploying a great quantity of iOS devices means creating a great quantity of App
 
 Further testing may be needed before this script is used for production accounts.
 
-Tested with:
+Tested 10 accounts with:
 
 * OS X 10.8.2
 * iTunes 11.0.1
