@@ -11,7 +11,7 @@ Deploying a great quantity of iOS devices means creating a great quantity of App
 * Current user being created now gets logged (~/users.txt).
 * Delays tweaked throughout script.
 
-=== Changes from Master ===
+=== Testing Results ===
 
 Further testing may be needed before this script is used for production accounts.
 
