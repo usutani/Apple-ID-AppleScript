@@ -1,20 +1,36 @@
-== Batch Apple ID Creator ==
+== Batch Apple ID Creator - thomrburg fork ==
 
 === Purpose & Features ===
 
 Deploying a great quantity of iOS devices means creating a great quantity of Apple IDs. This script allows automated Apple ID creation from a spreadsheet. Apple IDs are created without a credit card, which is great for many deployments. There is a "dry run" feature to test the script without actually creating the Apple ID.
 
+=== Changes from Master ===
+
+* iTunes 11 support
+* Rescue email import support added (see new appleid.csv template for example).
+* Current user being created now gets logged (~/users.txt).
+* Delays tweaked throughout script.
+
+=== Changes from Master ===
+
+Further testing may be needed before this script is used for production accounts.
+
+Tested with:
+
+* OS X 10.8.2
+* iTunes 11.0.1
+
 === Requirements ===
 
 * '''IMPORTANT''': Apple uses a velocity check to prevent too many Apple IDs from a single IP address. You must contact your Apple business representative to request that your IP address is whitelisted for a short time.
 * Being [http://developer.apple.com/applescript/ AppleScript], this runs only on Macs.
-* [http://www.apple.com/itunes/ iTunes 10.7] is currently required. Future versions may break the script.
+* [http://www.apple.com/itunes/ iTunes 11] is now supported.
 * [http://www.mactech.com/articles/mactech/Vol.21/21.06/UserInterfaceScripting/index.html UI Scripting] allows us to script otherwise non-scriptbale interfaces. Turn this on in System Preferences > Accessibility and check "Enable access for assistive devices."
 * Apple has [http://support.apple.com/kb/TS1728 strong password requirements]. Account creation will fail if the passwords are too weak.
 
 === Instructions ===
 
-A template CSV file is included. Fill out all columns, keeping the column headers, and save as CSV. Then run the script.
+A template CSV file is included. Fill out all columns, keeping the column headers, and save as CSV. Then run the script. Rescue email support has been added.
 
 === Security Questions ===
 
@@ -53,7 +69,7 @@ At the end of this script, Apple will send a verification email to the Apple ID.
 
 === Download ===
 
-The files are downloadable from GitHub: https://github.com/aaronfreimark/Apple-ID-AppleScript Feel free to fork and improve.
+The files are downloadable from GitHub: https://github.com/thomrburg/Apple-ID-AppleScript Feel free to fork and improve.
 
 === Acknowledgments === 
 
