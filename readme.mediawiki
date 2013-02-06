@@ -8,7 +8,7 @@ Deploying a great quantity of iOS devices means creating a great quantity of App
 
 * iTunes 11 support
 * Rescue email import support added (see new appleid.csv template for example).
-* Current user being created now gets logged (~/users.txt).
+* Last successfully created Apple ID gets logged to Console.app (filter on 'com.enterpriseios.baic' to see events).
 * Delays tweaked throughout script.
 
 === Testing Results ===
