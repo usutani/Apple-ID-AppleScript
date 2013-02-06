@@ -73,6 +73,7 @@ property supportedItunesVersions : {"11.0.1"}
 	Secret Answer 2
 	Secret Question 3
 	Secret Answer 3
+	Rescue Email
 	Month Of Birth
 	Day Of Birth
 	Year Of Birth
@@ -406,7 +407,7 @@ on findColumn(columnToFind, fileContents)
 		return findInList(secretAnswer3Headers, fileContents)
 	end if
 	
-	--BEGIN FIND RESCUE EMAIL																					BEGIN FIND SECRET ANSWER 3
+	--BEGIN FIND RESCUE EMAIL																					BEGIN FIND RESCUE EMAIL
 	if columnToFind is "Rescue Email" then
 		return findInList(rescueEmailHeaders, fileContents)
 	end if
@@ -1045,7 +1046,7 @@ on ProvidePaymentDetails(userFirstName, userLastName, addressStreet, addressCity
 					end try
 					-----------
 					
-					do shell script "echo " & appleIdEmail & ">> ~/users.txt" --This is a log of the current user being processed.
+					do shell script "logger com.enterpriseios.baic: Last Apple ID successfully created was " & appleIdEmail --This is a log of the current user being processed.
 					
 					-----------
 					delay 7
