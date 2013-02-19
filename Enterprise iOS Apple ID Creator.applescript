@@ -723,7 +723,7 @@ on installIbooks()
 		if pageVerification is "verified" then --Actually click the button to obtain iBooks
 			tell application "System Events"
 				try
-					if description of button 1 of UI element 1 of scroll area 1 of splitter group 1 of window 1 of application process "iTunes" is "Free, iBooks: $0.00" then
+					if description of button 1 of UI element 1 of scroll area 1 of splitter group 1 of window 1 of application process "iTunes" contains "iBooks: $0.00" then
 						click button 1 of UI element 1 of scroll area 1 of splitter group 1 of window 1 of application process "iTunes"
 					else
 						set errorList to errorList & "Unable to locate install app button by its description."
