@@ -18,7 +18,7 @@ Further testing may be needed before this script is used for production accounts
 Tested 10 accounts with:
 
 * OS X 10.8.2
-* iTunes 11.0.1
+* iTunes 11.0.2
 
 === Requirements ===
 
