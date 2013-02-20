@@ -62,7 +62,7 @@ property netDelay : 30
 property processDelay : 2
 
 --Used to store supported iTunes versions
-property supportedItunesVersions : {"11.0.1"}
+property supportedItunesVersions : {"11.0.1", "11.0.2"}
 
 (*
 	Email
