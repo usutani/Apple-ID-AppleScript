@@ -718,7 +718,7 @@ on installIbooks()
 		-- AF 2012-05-14 Open location instead of .inetloc
 		tell application "iTunes" to open location ibooksLinkLocation
 		
-		set pageVerification to verifyPage("iBooks", 11, 0, netDelay) --Looking for "iBooks", in the eleventh element, on a page with an element count of 96, with a timeout of 5
+		set pageVerification to verifyPage("iBooks", 12, 0, netDelay) --Looking for "iBooks", in the twelfth element, on a page with an element count of 96, with a timeout of 5
 		
 		if pageVerification is "verified" then --Actually click the button to obtain iBooks
 			tell application "System Events"
