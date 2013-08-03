@@ -1,2 +1,7 @@
-Email,Password,Secret Question 1,Secret Answer 1,Secret Question 2,Secret Answer 2,Secret Question 3,Secret Answer 3,Rescue Email,Month Of Birth,Day Of Birth,Year Of Birth,First Name,Last Name,Address Street,Address City,Address State,Address Zip,Phone Area Code,Phone Number,Account Status
-testemail@test.com,ApplePassword123,What is the first name of your best friend in high school?,answer1,What is your dream job?,answer2,In what city did your parents meet?,answer3,rescue@email.com,January,1,1970,Test,Account,1 Infinite Loop,Cupertino,CA,95014,800,6927753,
+Email,Password,Secret Question 1,Secret Answer 1,Secret Question 2,Secret Answer 2,Secret Question 3,Secret Answer 3,Rescue Email,Month Of Birth,Day Of Birth,Year Of Birth,First Name,Last Name,First Furigana,Last Furigana,Address Street,Address Bldg,Address City,Address State,Address Zip,Phone Area Code,Phone Number,Account Status
+testemail@example.com,ApplePassword123,十代の頃の親友の名前は？,回答1,憧れの職業は？,回答2,両親が出会った町の名前は？,回答3,,2,3,1970,東京,太郎,とうきょう,たろう,西新宿二丁目８番１号,東京都庁,新宿区,東京都,163-8001,03,53882112,
+testemail@example.com,ApplePassword123,初めて飼ったペットの名前は？,回答1,好きな絵本の題名は？,回答2,初めての職場での上司の名前は？,回答3,,2,3,1970,東京,太郎,とうきょう,たろう,西新宿二丁目８番１号,東京都庁,新宿区,東京都,163-8001,03,53882112,
+testemail@example.com,ApplePassword123,初めて覚えた料理は？,回答1,初めて所有した車の名前は？,回答2,子供時代を過ごした町の名前は？,回答3,,2,3,1970,東京,太郎,とうきょう,たろう,西新宿二丁目８番１号,東京都庁,新宿区,東京都,163-8001,03,53882112,
+testemail@example.com,ApplePassword123,初めて映画館で観た映画は？,回答1,子供の頃のニックネームは？,回答2,初めて遊びにいった海の名前は？,回答3,,2,3,1970,東京,太郎,とうきょう,たろう,西新宿二丁目８番１号,東京都庁,新宿区,東京都,163-8001,03,53882112,
+testemail@example.com,ApplePassword123,初めて飛行機で行った場所は？,回答1,学生時代に好きだった映画スターや登場人物の名前は？,回答2,初めて購入したアルバムの題名は？,回答3,,2,3,1970,東京,太郎,とうきょう,たろう,西新宿二丁目８番１号,東京都庁,新宿区,東京都,163-8001,03,53882112,
+testemail@example.com,ApplePassword123,小学生の時に好きだった先生の名前は？,回答1,学生時代に好きだった歌手またはバンドの名前は？,回答2,好きなスポーツチームは？,回答3,,2,3,1970,東京,太郎,とうきょう,たろう,西新宿二丁目８番１号,東京都庁,新宿区,東京都,163-8001,03,53882112,

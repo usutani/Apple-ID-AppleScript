@@ -1,4 +1,4 @@
-== Batch Apple ID Creator - thomrburg fork ==
+== Batch Apple ID Creator - usutani fork ==
 
 === Purpose & Features ===
 
@@ -10,6 +10,8 @@ Deploying a great quantity of iOS devices means creating a great quantity of App
 * Rescue email import support added (see new appleid.csv template for example).
 * Last successfully created Apple ID gets logged to Console.app (filter on 'com.enterpriseios.baic' to see events).
 * Delays tweaked throughout script.
+* 日本の iTunes Store に対応
+* 処理履歴をデスクトップに出力
 
 === Testing Results ===
 
@@ -17,8 +19,8 @@ Further testing may be needed before this script is used for production accounts
 
 Tested 10 accounts with:
 
-* OS X 10.8.2
-* iTunes 11.0.2
+* OS X 10.8.4
+* iTunes 11.0.4
 
 === Requirements ===
 
@@ -34,32 +36,31 @@ A template CSV file is included. Fill out all columns, keeping the column header
 
 === Security Questions ===
 
-As of iTunes 10.6.1 Apple has required three security questions. The Batch Apple ID Creator allows you to choose the questions from the list below. Each question should be copied into the appropriate spreadsheet column (Security Question 1, 2 or 3) exactly as typed below.
+As of iTunes 11.0.4 Apple has required three security questions. The Batch Apple ID Creator allows you to choose the questions from the list below. Each question should be copied into the appropriate spreadsheet column (Security Question 1, 2 or 3) exactly as typed below.
 
 '' Security Question 1 ''
-* What is the first name of your best friend in high school?
-* What was the name of your first pet?
-* What was the first thing you learned to cook?
-* What was the first film you saw in the theater?
-* Where did you go the first time you flew on a plane?
-* What is the last name of your favorite elementary school teacher?
+* 十代の頃の親友の名前は？
+* 初めて飼ったペットの名前は？
+* 初めて覚えた料理は？
+* 初めて映画館で観た映画は？
+* 初めて飛行機で行った場所は？
+* 小学生の時に好きだった先生の名前は？
 
 '' Security Question 2 ''
-* What is your dream job?
-* What is your favorite children's book?
-* What was the model of your first car?
-* What was your childhood nickname?
-* Who was your favorite film star or character in school?
-* Who was your favorite singer or band in high school?
-
+* 憧れの職業は？
+* 好きな絵本の題名は？
+* 初めて所有した車の名前は？
+* 子供の頃のニックネームは？
+* 学生時代に好きだった映画スターや登場人物の名前は？
+* 学生時代に好きだった歌手またはバンドの名前は？
 
 '' Security Question 3 ''
-* In what city did your parents meet?
-* What was the first name of your first boss?
-* What is the name of the street where you grew up?
-* What is the name of the first beach you visited?
-* What was the first album that you purchased?
-* What is the name of your favorite sports team?
+* 両親が出会った町の名前は？
+* 初めての職場での上司の名前は？
+* 子供時代を過ごした町の名前は？
+* 初めて遊びにいった海の名前は？
+* 初めて購入したアルバムの題名は？
+* 好きなスポーツチームは？
 
 === Known Bugs ===
 
